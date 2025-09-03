@@ -12,6 +12,6 @@ public class app2 {
         livro.autor = "j.r.r. tolkien";
         livro.datapub = "1954";
 
-        System.out.println(livro.nome);
+        livro.dadosLivros();
     }
 }

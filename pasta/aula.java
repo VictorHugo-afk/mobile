@@ -1,14 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
 package pasta;
 
 
 public class aula {
+        String nome;
+        String descricao;
+        String isbn;
+        Double preco;
+        String autor;
+        String datapub;
 
-    public aula() {
-    }
-
+        void dadosLivros(){
+        System.out.println("nome do livro" + nome);
+        System.out.println("preço" + preco);
+        }
 }
