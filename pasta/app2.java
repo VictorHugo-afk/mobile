@@ -14,4 +14,3 @@ public class app2 {
 
         System.out.println(livro.nome);
     }
-}
